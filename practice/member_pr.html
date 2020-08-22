@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style_pr.css">
+		<title>예제용 파일</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<span class="logo"><img src="img/logo.png" alt="사이트 로고"></span>
+				<h1>CSS활용강의</h1>
+				<h2>회원가입 폼 연습하기</h2>
+				<div class="clear"></div>
+			</div>
+			<div id="main">
+				<form id="loginForm" method="get" action="login_check.php">
+					<h3>회원가입 신청</h3>
+					
+					<fieldset>
+						<legend>
+							기본정보 입력
+						</legend>
+						<p>
+						<lable>이름</lable>
+						<input name="name" id="name" type="text"/>
+						</p>
+						<p>
+						<lable>아이디</lable>
+						<input name="idname" id="idname" type="text"/>
+						</p>
+						<p>
+						<lable>비밀번호</lable>
+						<input name="pw" id="pw" type="password"/>
+						</p>
+						<p>
+						<lable>비밀번호 확인</lable>
+						<input name="pw2" id="pw2" type="password"/>
+						</p>
+					</fieldset>
+					
+					<fieldset>
+						<legend>선택정보 입력</legend>
+						
+						<lable>핸드폰</lable>
+						<select id="phone1" class="phone">
+							<option value="010">010</option>
+							<option value="011">011</option>
+							<option value="018">018</option>
+						</select>
+						-
+						<input id="phone2" class="phone" type="text"/>
+						-
+						<input id="phone3" class="phone" type="text"/>
+						
+					</fieldset>
+					<p>
+					<input name="chkbox" id="chkbox" type="checkbox"/>기억하기
+					</p>
+					
+					<p>
+					<input type="submit" value="전송"/>
+					</p>
+				</form>
+			</div>	
+			<div id="foot">
+				<h4>2015.CSS활용강좌 All rights reserved.</h4>
+			</div>
+		</div>
+	</body>
+</html>

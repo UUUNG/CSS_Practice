@@ -1,0 +1,163 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a{
+	color: #000000;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+ul,
+li {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#wrap{
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+}
+
+#header{
+	background:#777777;
+	padding:30px 10px;
+}
+
+#header .logo{
+	float: left;
+	padding:20px;
+}
+
+#content{
+	padding: 20px;
+	background:#eeeeee;
+	
+}
+
+#foot{
+	background:#333333;
+	padding: 20px;
+	text-align: center;
+	height: 50px;	
+	color:#ffffff;
+}
+
+.write{
+	width:96%;
+	padding:2%;
+	border:1px solid #666666;
+	min-height:250px;
+	background:#ffffff;
+}
+
+.write .category{
+	
+	
+}
+
+.write .letter{
+	font-weight:bold;
+}
+
+.write select{
+	height:20px;
+}
+
+.write .chkbox{
+
+} 
+
+
+.write .title input{
+	width:70%;
+}
+
+.write .title a{
+	color:#777777;
+}
+
+
+
+.write .title #num{
+	color:#ff4500;
+}
+
+.write li{
+	padding-bottom:20px;
+}
+
+
+.write .category a{
+	color:#ff4500;
+}
+
+.write .textarea textarea{
+	height:400px;
+	width:100%;
+}
+
+.write .tag input{
+	width:70%;
+}
+
+.write .search a{
+	color:#ff4500;
+}
+
+.write .writerBottom{
+	border-top:1px solid #aaaaaa;
+	padding:20px;
+}
+
+.write .writerBottom a{
+	background:red;
+	color:#ffffff;
+	padding:30px;
+}
+
+.write .writerBottom a:hover{
+	background:#006666!important;
+	text-decoration:none;
+}
+
+.write .writerBottom .buttons{
+	padding-top:50px;
+	padding-bottom:20px;
+	padding-left:300px;
+}
+
+.write .writerBottom #b1{
+	background:#00AA88;
+}
+
+.write .writerBottom #b2{
+	background:#aa0000;
+}
+
+.write .info {
+	font-size:14px;
+	color:#666666;
+}
+
+.write .l{
+	color:#aaaaaa;
+}
+h1,
+h2
+{
+	color: #ffffff;
+}
+
+h3{
+	padding-left:0 ;
+}
+
+.clear{
+	clear:both;
+}

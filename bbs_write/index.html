@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>예제용 파일</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<span class="logo"><img src="img/logo.png" alt="사이트 로고"></span>
+				<h1>CSS활용강의</h1>
+				<h2>게시판 글쓰기</h2>
+			</div>
+
+			<div id="content">
+				<h3>
+					게시판 글쓰기
+				</h3>
+				<div class="write">
+					<ul>
+						<li class="category">
+							<span class="letter">카테고리</span>
+							<select>
+								<option value="">선택하세요.</option>
+								<option value="">자유게시판</option>																
+								<option value="">공지사항</option>
+								<option value="">Q&A</option>								
+								<option value="">FAQ</option>
+							</select>
+							<select>
+								<option value="">잡담</option>																
+								<option value="">정보</option>
+								<option value="">Q&A</option>								
+							</select>
+							<a href="#"> 말머리추가</a>
+							<input class="chkbox" type="checkbox"/>까페메인에 공지
+							<input class="chkbox" type="checkbox"/>메인에 공지
+
+						</li>
+						<li class="title">
+							<span class="letter">제목</span>
+							<input type="text" placeholder="제목을 입력하세요.">
+							<a href="#">임시저장된글<span id="num">(7)</span></a>
+						</li>
+						<li>
+							<span class="letter">파일첨부</span>
+							<img src="img/sym1.png"/><a href="#">사진첨부</a>
+							<img src="img/sym2.png"/><a href="#">동영상첨부</a>
+							<img src="img/sym3.png"/><a href="#">지도첨부</a>
+						</li>
+						<li>
+							<span class="letter">정보첨부</span>
+							<a class="info" href="#">책정보</a>
+							<span class="l">|</span>
+							<a class="info" href="#">위치정보</a>
+							<span class="l">|</span>
+							<a class="info" href="#">음악정보</a>
+							<span class="l">|</span>
+							<a class="info" href="#">상품정보</a>
+						</li>
+						<li class="textarea">
+							<textarea></textarea>
+						</li>
+						<li class="tag">
+							<span class="letter">태그달기</span>
+							<input type="text" placeholder="태그를 입력하세요. 태그와 태그는 쉼표로 구분합니다."/>
+							<select>
+								<option>나의태그보기</option>												<option>HTML</option>
+								<option>CSS</option>
+								<option>JavaScript</option>												<option>잡담</option>
+								<option>설문</option>
+							</select>
+						</li>
+						<li>
+							<span class="letter">공개설정</span>
+							<input type="radio"/>전체공개
+							<input type="radio"/>멤버공개
+						</li>
+						<li class="search">
+							<span class="letter">검색설정</span>
+							<input class="chkbox" type="checkbox"/>어디서나 검색될수 있게 합니다. 
+							<img src="img/warn.png"/><a href="#">멤버가 아니어도 글을 볼 수 있습니다.</a>
+						</li>
+					</ul>
+					<div class="writerBottom">
+						<div class="buttons">
+							<a id="b1" href="#">저장하기</a>										<a id="b2" href="#">취소하기</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div id="foot">
+				<h4>2015.CSS활용강좌 All rights reserved.</h4>
+			</div>
+		</div>
+	</body>
+	<footer>
+		
+	</footer>
+</html>

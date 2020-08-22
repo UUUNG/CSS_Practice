@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style4.css">
+		<title>예제용 파일</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<span class="logo"><img src="img/logo.png" alt="사이트 로고"></span>
+				<h1>CSS활용강의</h1>
+				<h2>회원가입 폼 연습하기</h2>
+				<div class="clear"></div>
+			</div>
+			<div id="main">
+				<form id="loginForm" method="get" action="login_check.php">
+					<h3>회원가입 신청</h3>
+					<fieldset>
+						<legend>기본정보 입력</legend>
+						<p>
+						<lable>이름</lable>
+						<input name="myname" id="myname" type="text" maxlength="10"/>
+						</p>
+						<p>
+						<lable>아이디</lable>
+						<input name="idname" id="idname" type="text" maxlength="16"/>
+						</p>
+						<p>
+						<lable>비밀번호</lable>
+						<input name="pw" id="pw" type="password"/>
+						</p>
+						
+						<p>
+						<lable>비밀번호 확인</lable>
+						<input name="pw2" id="pw2" type="password"/>
+						</p>
+					</fieldset>
+					<fieldset>
+						<legend>선택정보 입력</legend>
+						<p>
+						<lable>핸드폰</lable>
+						<select id="phone1">
+							<option value="010">010</option>	
+							<option value="010">011</option>	
+							<option value="010">016</option>	
+						</select>
+						-
+						<input name="phone2" id="phone2" class="phoneInput" type="text" maxlength="4">
+						-
+						<input name="phone3" id="phone3" class="phoneInput" type="text" maxlength="4">
+						</p>
+						
+						<p>
+						<h4>성별</h4>
+						<input type="radio" class="radio" id="radio-m" name="radio-gender" value="m">
+						<lable for="radio-m">남</lable>
+						<input type="radio" class="radio" id="radio-w" name="radio-gender" value="w">
+						<lable for="radio-w">여</lable>
+						</p>
+					</fieldset>
+				
+					<p>
+					<input name="chkbox" id="chkbox" type="checkbox"/>
+					<span>회원가입에 동의하십니까?</span>
+						<input type="radio" class="radio" id="radio-y" name="radio-isok" value="y">
+						<lable for="radio-m">남</lable>
+						<input type="radio" class="radio" id="radio-n" name="radio-isok" value="n">
+						<lable for="radio-w">여</lable>
+					</p>
+					<p>
+					<input type="submit" value="전송"/>
+					</p>
+				</form>
+			</div>	
+			<div id="foot">
+				<h4>2015.CSS활용강좌 All rights reserved.</h4>
+			</div>
+		</div>
+	</body>
+</html>

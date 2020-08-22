@@ -1,0 +1,105 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a{
+	color: #000000;
+	text-decoration:none;
+}
+
+ul,
+li {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#wrap{
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+}
+
+#header{
+	background:#777777;
+	padding:30px 10px;
+}
+
+#header .logo{
+	float: left;
+	padding:20px;
+}
+
+#main{
+	padding: 20px;
+	background:#eeeeee;
+	
+}
+
+#main img{
+	width:100%;
+}
+
+#foot{
+	background:#333333;
+	padding: 20px;
+	text-align: center;
+	height: 50px;	
+}
+
+h1,
+h2,
+h4{
+	color: #ffffff;
+}
+
+h3{
+	padding-left:0 ;
+}
+
+.clear{
+	clear:both;
+}
+
+#loginForm {
+	position:relative;
+	width:50%;
+	
+	border:1px solid #999999;
+	margin:0 auto;
+	padding:20px;
+}
+
+#loginForm lable{
+	display:block; /*인라인은 한줄에 쭉 나오는 것 블럭은 면적을 사용한다는 의미*/
+	width:80px;
+}
+
+#loginForm input{
+	width:96%;
+}
+
+#loginForm input[type="text"] , #loginForm input[type="password"]{
+	padding:2%;
+	border:none;
+	border-right:1px solid #999999;
+	border-bottom:1px solid #999999;
+	color:#666666;
+}
+#loginForm input[type="checkbox"]{
+	width:5%;
+}
+
+#loginForm input[type="submit"]{
+	width:100%;
+	background:#555599;
+	border:none;
+	color:#ffffff;
+	padding:10px;
+}
+
+#loginForm input[type="submit"]:hover{
+	background:#9999cc;
+	cursor:pointer;
+}

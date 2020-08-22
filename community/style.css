@@ -1,0 +1,177 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a{
+	color: #000000;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+ul,
+li {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#wrap{
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+}
+
+#header{
+	background:#777777;
+	padding:30px 10px;
+}
+
+#header .logo{
+	float: left;
+	padding:20px;
+}
+
+#content{
+	padding: 20px;
+	background:#eeeeee;
+	
+}
+
+#foot{
+	background:#333333;
+	padding-top: 1px;
+	padding-bottom: 50px;
+	text-align: center;
+	height: 50px;	
+}
+
+h1,
+h2,
+h4{
+	color: #ffffff;
+}
+
+h3{
+	padding-left:0 ;
+}
+
+
+.bbs_list{
+	width:100%;	
+	border-spacing:0;
+	background:#dddddd;
+}
+
+.bbs_list thead tr th {
+	background:#cccccc;
+	border-bottom:1px solid #999999;
+	border-top:1px solid #999999;
+	padding:8px;
+}
+
+.bbs_list tbody tr td{
+	padding:5px;
+	border-bottom:1px solid #bbbbbb;
+	text-align:center;
+	font-size:13px;
+	
+}
+
+.bbs_list tfoot tr td{
+	border-top:3px solid #bbbbbb;
+	border-bottom:2px solid #bbbbbb;
+	padding:10px;
+}
+
+.bbs_list .subject{
+	width:52%;
+}
+.bbs_list .t_subject{
+	
+	text-align:left;
+}
+
+.bbs_list .author{
+	width:20%;
+}
+
+.bbs_list .lookup{
+	
+}
+.bbs_list .t_subject .t_comment{
+	font-size:10px;
+	color:#ff2222;
+}
+
+.bbs_list .t_img{
+	padding:0 5px;
+}
+
+
+.bbs_list tfoot{
+	text-align:right;
+}
+tfoot tr #make_w{
+	padding:5px; 20px;
+	border:1px solid #bbbbbb;
+	background: #ffffff;
+}
+tfoot tr #make_w:hover{
+	background: #cccccc;
+}
+.page_table {
+	padding: 10px;
+	border-spacing:0;
+	width:10%;
+	margin:0 auto;
+}
+
+.page_table .page td{
+	padding: 5px 8px;
+	background:#ffffff;
+	border:1px solid #aaaaaa;
+}
+
+.page_table .page:hover{
+	cursor:pointer;
+}
+
+.search{
+	padding:10px;
+	padding-bottom:40px;
+}
+
+.search .s{
+	margin: 0 240px;
+}
+
+.bbs_list #manager {
+	background:#999999;
+}
+
+.bbs_list #manager .notice{
+	background: yellow;
+	font-weight:bold;
+	color: 3pxsolid black;
+}
+
+.bbs_list #manager #notice_comment{
+	color:yellow;
+	font-size:10px;
+}
+
+.bbs_list #manager a{
+	color:#774500;
+	font-weight:bold;
+}
+
+.bbs_list tfoot span{
+	position:relative;
+	top:5px;
+}
+.clear{
+	clear:both;
+}
