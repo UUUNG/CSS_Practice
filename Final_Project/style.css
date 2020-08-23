@@ -46,7 +46,6 @@ ul, li{
 #wrap{
 	width:960px;
 	min-height:400px;
-	background:#efefef;
 	margin:0 auto;
 }
 
@@ -81,4 +80,35 @@ ul, li{
 	font-size:13px;
 }
 
-#header 
+#content #serviceContainer{
+	padding:30px;
+	float:left;
+}
+
+#content #serviceContainer ul > li > a{
+	color:#00a085;
+	padding:7px;
+	font-size:12px;
+}
+
+#content #serviceContainer img{
+
+
+}
+
+#content #serviceContainer .more{
+	font-size:2px;
+}
+#content #serviceContainer ul > li {
+	padding:5px;
+}
+
+
+#content #mainContainer {
+	float:left
+}
+#content #mainContainer #imgList img{
+	width:50%;
+	margin-top:-13500px;
+	margin-left:170px;
+}
