@@ -182,6 +182,10 @@ ul, li{
 	height:100%;
 }
 
+
+.zineContainer{
+	margin-top:-50px;
+}
 .zineHeader{
 	background: #00a085;
 	padding:2%;
@@ -198,6 +202,9 @@ ul, li{
 	color:#ffffff;
 }
 
+.zineHeader #all{
+	color:#ffffff;
+}
 
 .zineContent ul li{
 	height:80px;	
@@ -228,7 +235,7 @@ ul, li{
 
 		
 #subContainer{
-	background:#777777;
+	background:#ffffff;
 	height:1000px;
 	width:20%;
 	position:relative;
@@ -236,3 +243,30 @@ ul, li{
 	float:left;
 }
 
+
+.searchContainer{
+	border: 1px solid #cccccc;
+	margin-left:40px;
+	width:250px;
+}
+
+.searchContainer .searchHeader{
+	padding:5% 3%;
+	color:#00a085;
+	font-weight:bold;
+	border-bottom:1px solid #cccccc;
+}
+
+
+.weatherContainer{
+	border: 1px solid #cccccc;
+	margin-left:40px;
+	width:250px;
+	margin-top:20px;
+}
+.weatherContainer .weatherHeader{
+	padding:5% 3%;
+	color:#00a085;
+	font-weight:bold;
+	border-bottom:1px solid #cccccc;
+}
